@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25262B">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        android:src="@drawable/shop_1" />
+
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="#25262B"
+        android:text="직진배송 무료배송,빠른도착 \n 밤 12시 전 주문 시, 모레(화)도착 "
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+</LinearLayout>
