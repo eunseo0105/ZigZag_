@@ -9,6 +9,7 @@ import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
 
 class MainActivity : AppCompatActivity() {
+
     private lateinit var viewPager: ViewPager
     private lateinit var tabLayout: TabLayout
 
