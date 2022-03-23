@@ -12,6 +12,7 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 
 class Frag1Activity:  Fragment() {
+    private lateinit var btn1: Button
     private lateinit var btn6 : Button
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {

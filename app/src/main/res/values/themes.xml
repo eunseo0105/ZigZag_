@@ -11,6 +11,11 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@drawable/shop_8</item>
+        <item name="android:textColor">#FFFFFF</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="tab_text" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#FFFFFF</item>
     </style>
 </resources>

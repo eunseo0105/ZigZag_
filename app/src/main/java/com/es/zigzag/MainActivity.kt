@@ -17,11 +17,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        viewPager = findViewById(R.id.viewPager)
+        viewPager = findViewById(R.id.frame1)
         tabLayout = findViewById(R.id.tabLayout)
+
         val adapter : PagerAdapter = PagerAdapter(supportFragmentManager)
         adapter.addFragment(Frag1Activity(), "홈")
+        adapter.addFragment(Frag2Activity(), "BRAND")
         viewPager.adapter = adapter
         tabLayout.setupWithViewPager(viewPager)
+
+
     }
 }

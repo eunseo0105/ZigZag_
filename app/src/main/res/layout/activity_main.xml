@@ -33,87 +33,32 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btn1"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#25262B"
-            android:padding="10dp"
-            android:text="홈"
-            android:textColor="#FFFFFF"
-            android:textSize="15dp" />
-
-        <Button
-            android:id="@+id/btn2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#25262B"
-            android:padding="10dp"
-            android:text="Brand"
-            android:textColor="#FFFFFF"
-            android:textSize="15dp" />
-
-        <Button
-            android:id="@+id/btn3"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#25262B"
-            android:padding="10dp"
-            android:text="뷰티"
-            android:textColor="#FFFFFF"
-            android:textSize="15dp" />
-
-        <Button
-            android:id="@+id/btn4"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#25262B"
-            android:padding="10dp"
-            android:text="베스트"
-            android:textColor="#FFFFFF"
-            android:textSize="15dp" />
-
-        <Button
-            android:id="@+id/btn5"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#25262B"
-            android:padding="10dp"
-            android:text="세일"
-            android:textColor="#FFFFFF"
-            android:textSize="15dp" />
-
-    </LinearLayout>
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        app:tabTextAppearance="@style/tab_text" >
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/btn1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="홈" />
+            android:text="홈"
+            />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/btn2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="BRAND"
+
             />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/btn3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -121,6 +66,7 @@
             />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/btn4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -128,6 +74,7 @@
             />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/btn5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -136,7 +83,7 @@
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewPager"
+        android:id="@+id/frame1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
