@@ -23,6 +23,5 @@ class MainActivity : AppCompatActivity() {
         adapter.addFragment(Frag1Activity(), "홈")
         viewPager.adapter = adapter
         tabLayout.setupWithViewPager(viewPager)
-        }
-
     }
+}
