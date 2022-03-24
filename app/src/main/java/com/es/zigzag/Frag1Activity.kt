@@ -9,11 +9,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 
 class Frag1Activity:  Fragment() {
-    private lateinit var btn1: Button
+
     private lateinit var btn6 : Button
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         var view : View = inflater.inflate(R.layout.activity_frag1, container, false)

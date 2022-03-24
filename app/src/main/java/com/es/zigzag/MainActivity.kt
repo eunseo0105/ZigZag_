@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var viewPager: ViewPager
     private lateinit var tabLayout: TabLayout
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

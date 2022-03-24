@@ -85,9 +85,8 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/frame1"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
-    </androidx.viewpager.widget.ViewPager>
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></androidx.viewpager.widget.ViewPager>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -97,35 +96,35 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="5"
             android:background="#25262B"
             android:drawableBottom="@drawable/shop_2" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="5"
             android:background="#25262B"
             android:drawableBottom="@drawable/shop_3" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="5"
             android:background="#25262B"
             android:drawableBottom="@drawable/shop_4" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="5"
             android:background="#25262B"
             android:drawableBottom="@drawable/shop_5" />
 
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="5"
             android:background="#25262B"
             android:drawableBottom="@drawable/shop_6" />
     </LinearLayout>
