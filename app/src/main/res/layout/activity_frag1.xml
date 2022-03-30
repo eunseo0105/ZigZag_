@@ -4,11 +4,15 @@
     android:layout_height="match_parent"
     android:background="#25262B">
 
-    <ImageView
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="247dp"
-        android:src="@drawable/shop_1" />
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="247dp"
+            android:src="@drawable/shop_1" />
 
+    </FrameLayout>
 
     <Button
         android:id="@+id/btn6"

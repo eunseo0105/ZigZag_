@@ -86,7 +86,9 @@
         android:id="@+id/frame1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"></androidx.viewpager.widget.ViewPager>
+        android:layout_weight="1">
+
+    </androidx.viewpager.widget.ViewPager>
 
     <LinearLayout
         android:layout_width="match_parent"
