@@ -24,6 +24,10 @@ class MainActivity : AppCompatActivity() {
         val adapter : PagerAdapter = PagerAdapter(supportFragmentManager)
         adapter.addFragment(Frag1Activity(), "홈")
         adapter.addFragment(Frag2Activity(), "BRAND")
+        adapter.addFragment(Frag3Activity(),"뷰티")
+        adapter.addFragment(Frag4Activity(),"베스트")
+
+
         viewPager.adapter = adapter
         tabLayout.setupWithViewPager(viewPager)
 

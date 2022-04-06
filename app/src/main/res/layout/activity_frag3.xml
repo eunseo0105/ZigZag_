@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#25262B"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/frame3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="center" >
+
+        </androidx.viewpager2.widget.ViewPager2>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Button10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="#25262B"
+            android:text="전체상품"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/Button11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="#25262B"
+            android:text="스킨케어"
+            android:textColor="#FFFFFF"></Button>
+
+        <Button
+            android:id="@+id/Button12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="#25262B"
+            android:text="선케어"
+            android:textColor="#FFFFFF"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Button13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="베이스메이크업"
+            android:textColor="#FFFFFF"
+            android:background="#25262B" />
+        <Button
+            android:id="@+id/Button14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="아이메이크업"
+            android:textColor="#FFFFFF"
+            android:background="#25262B" />
+
+        <Button
+            android:id="@+id/Button15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="립메이크업"
+            android:textColor="#FFFFFF"
+            android:background="#25262B" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Button16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="클렌징"
+            android:textColor="#FFFFFF"
+            android:background="#25262B" />
+
+        <Button
+            android:id="@+id/Button17"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="마스크팩"
+            android:textColor="#FFFFFF"
+            android:background="#25262B" />
+
+        <Button
+            android:id="@+id/Button18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="+더보기"
+            android:textColor="#FFFFFF"
+            android:background="#25262B" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/Text2"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape2"
+                android:padding="10dp"
+                android:text="뷰티 상품이나 스토어를 입력해주세요."
+                android:textColor="#B9BECC"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
