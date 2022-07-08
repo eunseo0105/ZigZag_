@@ -20,9 +20,6 @@ class Frag3Activity :Fragment() {
         viewPager =view.findViewById(R.id.frame3)
         val pagerAdapter = ScreenSlidePagerAdapter2(this.requireActivity())
         viewPager.adapter = pagerAdapter
-
         return view
     }
-
-
 }

@@ -13,74 +13,68 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        <com.google.android.material.tabs.TabLayout
-            android:id="@+id/tabLayout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:tabTextAppearance="@style/tab2_text" >
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabTextAppearance="@style/tab2_text">
 
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/btn1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="전체"
-                />
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전체" />
 
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/btn2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="상의"
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="상의"
 
-                />
+                    />
 
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/btn3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="아우터"
-                />
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아우터" />
 
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/btn4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="원피스/세트"
-                />
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/btn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="원피스/세트" />
 
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/btn5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="바지"
-                />
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/btn6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="스커트"
-                />
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/btn7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="슈즈"
-                />
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/btn8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="가방"
-                />
-            <com.google.android.material.tabs.TabItem
-                android:id="@+id/btn9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="악세사리"
-                />
-        </com.google.android.material.tabs.TabLayout>
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/btn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="바지" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/btn6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="스커트" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/btn7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="슈즈" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/btn8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="가방" />
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/btn9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="악세사리" />
+            </com.google.android.material.tabs.TabLayout>
         </HorizontalScrollView>
-
     </LinearLayout>
-
 </ScrollView>

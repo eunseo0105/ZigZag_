@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ZigZag">
-        <activity android:name=".Shop1Activity"></activity>
+        <activity
+            android:name=".CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity android:name=".Shop1Activity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

@@ -1,27 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#25262B">
+    android:background="#25262B"
+    android:id="@+id/framelayout">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <ImageView
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="247dp"
-            android:src="@drawable/shop_1" />
+            android:layout_height="270dp">
+            <androidx.viewpager2.widget.ViewPager2
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageSlide1"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#25262B"
+            android:text="직진배송 무료배송,빠른도착 \n 밤 12시 전 주문 시, 모레(화)도착 "
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기은서님을 위한 추천 아이템"
+            android:textSize="15dp"
+            android:padding="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="72dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/shop_25"/>
 
-    </FrameLayout>
+            <ImageButton
+                android:layout_width="72dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/shop_26"/>
 
-    <Button
-        android:id="@+id/btn6"
-        android:layout_width="match_parent"
-        android:layout_height="71dp"
-        android:background="#25262B"
-        android:text="직진배송 무료배송,빠른도착 \n 밤 12시 전 주문 시, 모레(화)도착 "
-        android:textColor="#FFFFFF"
-        android:textSize="18dp"
-        android:textStyle="italic" />
+            <ImageButton
+                android:layout_width="72dp"
+                android:layout_height="93dp"
+                android:layout_marginLeft="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/shop_25"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
 
-</LinearLayout>
+
+

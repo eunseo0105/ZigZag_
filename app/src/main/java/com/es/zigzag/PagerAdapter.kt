@@ -1,10 +1,12 @@
 package com.es.zigzag
 
+import android.view.View
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 
-class PagerAdapter(manager: FragmentManager): FragmentPagerAdapter(manager) {
+open class PagerAdapter(manager: FragmentManager) : FragmentPagerAdapter(manager) {
     private val fragmentList = ArrayList<Fragment>()
     private val titleList = ArrayList<String>()
 
@@ -18,4 +20,5 @@ class PagerAdapter(manager: FragmentManager): FragmentPagerAdapter(manager) {
         fragmentList.add(fragment)
         titleList.add(title)
     }
+
 }
