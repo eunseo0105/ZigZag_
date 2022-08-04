@@ -2,4 +2,7 @@
     <string name="app_name">ZigZag</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="activity_rank_frag2">Second Fragment</string>
+    <string name="first_fragment">First Fragment</string>
+
 </resources>

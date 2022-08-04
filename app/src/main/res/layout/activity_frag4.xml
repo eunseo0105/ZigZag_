@@ -1,80 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#25262B">
-    <LinearLayout
+    android:background="#25262B"
+    android:orientation="vertical">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-        <HorizontalScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <com.google.android.material.tabs.TabLayout
-                android:id="@+id/tabLayout"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:tabTextAppearance="@style/tab2_text">
-
-                <com.google.android.material.tabs.TabItem
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable"
+        app:tabTextAppearance="@style/tab2_text">
+ <!--        <com.google.android.material.tabs.TabItem
                     android:id="@+id/btn1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="전체" />
-
+                    android:text="전체"/>
                 <com.google.android.material.tabs.TabItem
                     android:id="@+id/btn2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="상의"
-
-                    />
-
+                    android:text="상의" />
                 <com.google.android.material.tabs.TabItem
                     android:id="@+id/btn3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="아우터" />
-
                 <com.google.android.material.tabs.TabItem
                     android:id="@+id/btn4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="원피스/세트" />
-
                 <com.google.android.material.tabs.TabItem
                     android:id="@+id/btn5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="바지" />
-
                 <com.google.android.material.tabs.TabItem
                     android:id="@+id/btn6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="스커트" />
-
                 <com.google.android.material.tabs.TabItem
                     android:id="@+id/btn7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="슈즈" />
-
                 <com.google.android.material.tabs.TabItem
                     android:id="@+id/btn8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="가방" />
-
                 <com.google.android.material.tabs.TabItem
                     android:id="@+id/btn9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="악세사리" />
-            </com.google.android.material.tabs.TabLayout>
-        </HorizontalScrollView>
+                    android:text="악세사리" />-->
+    </com.google.android.material.tabs.TabLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#25262B"
+            android:text="전체"
+            android:textSize="10dp"
+            android:id="@+id/frag4Btn1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#25262B"
+            android:text="10대"
+            android:textSize="10dp"
+            android:id="@+id/frag4Btn2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#25262B"
+            android:text="20대"
+            android:textSize="10dp"
+            android:id="@+id/frag4Btn3"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#25262B"
+            android:text="30대"
+            android:textSize="10dp"
+            android:id="@+id/frag4Btn4"/>
     </LinearLayout>
-</ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/frag4viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.viewpager2.widget.ViewPager2>
+    </ScrollView>
+</LinearLayout>

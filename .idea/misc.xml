@@ -5,29 +5,52 @@
       <map>
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1735" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable/homebtn.xml" value="0.152" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable/ic_home.xml" value="0.137" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable/item_selector.xml" value="0.135" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable/menu_click_color.xml" value="0.137" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable/shape.xml" value="0.1895" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable/shape2.xml" value="0.1565" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable/shape_indicator_circle_gray.xml" value="0.165" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable/shape_indicator_circle_purple.xml" value="0.165" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/drawable/splash.xml" value="0.1575" />
-        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_cart.xml" value="0.536" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_cart.xml" value="0.2" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag1.xml" value="0.2" />
-        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag2.xml" value="0.176" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag2.xml" value="0.536" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag21.xml" value="0.146875" />
-        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag3.xml" value="0.2" />
-        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag4.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag2btn1.xml" value="0.20478837109876016" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag2btn2.xml" value="0.264" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag3.xml" value="0.536" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag3btn1.xml" value="0.20478837109876016" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag3btn2.xml" value="0.11329628046173579" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag4.xml" value="0.2" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag41.xml" value="0.176" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag42.xml" value="0.20478837109876016" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag43.xml" value="0.20478837109876016" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag44.xml" value="0.20478837109876016" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag45.xml" value="0.19281744335185977" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag46.xml" value="0.20478837109876016" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag47.xml" value="0.20478837109876016" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag48.xml" value="0.20478837109876016" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag49.xml" value="0.20478837109876016" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag4frame1.xml" value="0.20478837109876016" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag5.xml" value="0.1640625" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_frag_22.xml" value="0.23489583333333333" />
-        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_home.xml" value="0.14375" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_home.xml" value="0.176" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_imageslide1.xml" value="0.15348439504061565" />
-        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_main.xml" value="0.4" />
-        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_plus.xml" value="0.536" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_plus.xml" value="0.527681660899654" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_rank.xml" value="0.1308251389482685" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_rank_frag1.xml" value="0.2" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_rank_frag2.xml" value="0.1308251389482685" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_shoppinsite_2.xml" value="0.18125" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_store.xml" value="0.14375" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/activity_store_frag1.xml" value="0.536" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/fragment_home.xml" value="0.15572916666666667" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/fragment_home2.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/fragment_nav_heart.xml" value="0.10602821718683197" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/fragment_nav_home.xml" value="0.10602821718683197" />
+        <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/fragment_nav_mypage.xml" value="0.10602821718683197" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/imagefile.xml" value="0.23489583333333333" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/layout/splash.xml" value="0.152" />
         <entry key="..\:/Users/ellen/AndroidStudioProjects/ZigZag/app/src/main/res/menu/nav_menu.xml" value="0.15572916666666667" />

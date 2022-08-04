@@ -10,13 +10,58 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ZigZag">
         <activity
+            android:name=".RankFrag2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".RankFrag1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".StoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag49Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag48Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag47Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag46Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag45Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag44Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag43Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag3btn2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag3btn1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag2btn2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag2btn1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag42Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Frag41Activity"
+            android:exported="false" />
+        <activity
             android:name=".CartActivity"
             android:exported="false" />
         <activity
             android:name=".PlusActivity"
-            android:exported="false" />
-        <activity
-            android:name=".StoreActivity"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"

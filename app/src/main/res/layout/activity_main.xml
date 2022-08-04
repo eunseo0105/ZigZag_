@@ -7,10 +7,6 @@
     android:background="#25262B"
     android:orientation="vertical"
     tools:context=".MainActivity">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,9 +30,10 @@
                 android:textColor="#A6B1D3"
                 android:textSize="15dp"
                 android:textStyle="bold" />
+
             <ImageButton
                 android:id="@+id/btnplus"
-                android:layout_width="30dp"
+                android:layout_width="24dp"
                 android:layout_height="match_parent"
                 android:src="@drawable/plus" />
             <ImageButton
@@ -85,23 +82,49 @@
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/frame1"
             android:layout_width="match_parent"
-            android:layout_height="316dp"></androidx.viewpager.widget.ViewPager>
-                <LinearLayout
-                    android:id="@+id/body_container"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    app:layout_constraintBottom_toBottomOf="parent">
+            android:layout_height="316dp"/>
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
-                    <com.google.android.material.bottomnavigation.BottomNavigationView
-                        android:id="@+id/bottom_navigation"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:itemIconSize="22dp"
-                        app:itemIconTint="@android:color/primary_text_light"
-                        app:labelVisibilityMode="labeled"
-                        app:menu="@menu/nav_menu" />
-                </LinearLayout>
+        <ImageButton
+            android:id="@+id/btnhome"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/backGround"
+            android:src="@drawable/ic_home" />
+        <ImageButton
+            android:id="@+id/btnstore"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/backGround"
+            android:src="@drawable/ic_store"/>
+        <ImageButton
+            android:id="@+id/btnpreview"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/backGround"
+            android:src="@drawable/ic_preview"/>
+        <ImageButton
+            android:id="@+id/btnheart"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/backGround"
+            android:src="@drawable/ic_heart"/>
+        <ImageButton
+            android:id="@+id/btnmypage"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/backGround"
+            android:src="@drawable/ic_mypage"
+            />
     </LinearLayout>
 </LinearLayout>
 

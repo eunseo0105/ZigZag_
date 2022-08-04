@@ -5,32 +5,31 @@
     <item
         android:id="@+id/nav_home"
         android:title="홈"
-        android:icon="@drawable/shop_2"
+        android:icon="@drawable/ic_home"
         app:showAsAction="ifRoom"
         android:enabled="true" />
-
     <item
         android:id="@+id/nav_store"
         android:title="스토어"
-        android:icon="@drawable/shop_3"
+        android:icon="@drawable/ic_store"
         app:showAsAction="ifRoom"
         android:enabled="true"/>
     <item
         android:id="@+id/nav_preview"
         android:title="미리보기"
-        android:icon="@drawable/shop_4"
+        android:icon="@drawable/ic_preview"
         app:showAsAction="ifRoom"
         android:enabled="true"/>
     <item
         android:id="@+id/nav_heart"
         android:title="찜"
-        android:icon="@drawable/shop_5"
+        android:icon="@drawable/ic_heart"
         app:showAsAction="ifRoom"
         android:enabled="true"/>
     <item
         android:id="@+id/nav_mypage"
         android:title="마이페이지"
-        android:icon="@drawable/shop_6"
+        android:icon="@drawable/ic_mypage"
         app:showAsAction="ifRoom"
         android:enabled="true"/>
 

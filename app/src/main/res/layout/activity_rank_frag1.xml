@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RankFrag1Activity"
+    android:background="#25262B"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/storefragbtn1"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:background="#25262B"
+            android:text="쇼핑몰"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/storefragbtn2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="#25262B"
+            android:text="브랜드"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/storefragbtn3"
+            android:layout_width="52dp"
+            android:layout_height="wrap_content"
+            android:background="#25262B"
+            android:text="뷰티"
+            android:textSize="13dp" />
+
+        <Button
+            android:id="@+id/storefragbtn4"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:background="#25262B"
+            android:text="라이프"
+            android:textSize="13dp" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/rankFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</LinearLayout>
